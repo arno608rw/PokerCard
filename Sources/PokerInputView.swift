@@ -113,7 +113,7 @@ public class PokerInputView: PokerAlertView {
     }
     
     private func setupPromotionInputView() {
-        inputContainerViewHeight = 48
+        inputContainerViewHeight = 0
         
         inputContainerView = PokerSubView()
         addSubview(inputContainerView)
